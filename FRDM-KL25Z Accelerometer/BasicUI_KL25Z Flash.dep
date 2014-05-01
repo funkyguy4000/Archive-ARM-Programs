@@ -1,0 +1,58 @@
+Dependencies for Project 'BasicUI', Target 'KL25Z Flash': (DO NOT MODIFY !)
+F (.\startup_MKL25Z4.s)(0x5088118E)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis--list .\lst\startup_mkl25z4.lst --xref -o .\obj\startup_mkl25z4.o --depend .\obj\startup_mkl25z4.d)
+F (.\src\system_MKL25Z4.c)(0x50881190)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinc-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\obj\system_mkl25z4.o --list_dir ".\\lst\\" --list --omf_browse .\obj\system_mkl25z4.crf --depend .\obj\system_mkl25z4.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+F (.\src\main.c)(0x535568E3)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinc-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\obj\main.o --list_dir ".\\lst\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.H)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\ARMCC\include\math.h)(0x51C86E14)
+I (inc\gpio_defs.h)(0x510430D8)
+I (inc\LEDs.h)(0x5169F23C)
+I (inc\i2c.h)(0x53556EB2)
+I (inc\mma8451.h)(0x5351E25E)
+I (inc\delay.h)(0x532A5E1A)
+F (.\src\LEDs.c)(0x535568A7)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinc-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\obj\leds.o --list_dir ".\\lst\\" --list --omf_browse .\obj\leds.crf --depend .\obj\leds.d)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.H)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+I (inc\LEDs.h)(0x5169F23C)
+I (inc\gpio_defs.h)(0x510430D8)
+F (.\src\i2c.c)(0x535569BF)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinc-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\obj\i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.H)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+I (inc\i2c.h)(0x53556EB2)
+F (.\src\mma8451.c)(0x5355699F)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinc-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\obj\mma8451.o --list_dir ".\\lst\\" --list --omf_browse .\obj\mma8451.crf --depend .\obj\mma8451.d)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.H)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+I (inc\mma8451.h)(0x5351E25E)
+I (inc\i2c.h)(0x53556EB2)
+I (inc\delay.h)(0x532A5E1A)
+I (C:\Keil_v4\ARM\ARMCC\include\math.h)(0x51C86E14)
+F (.\src\delay.c)(0x5171F856)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinc-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\obj\delay.o --list_dir ".\\lst\\" --list --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.H)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)

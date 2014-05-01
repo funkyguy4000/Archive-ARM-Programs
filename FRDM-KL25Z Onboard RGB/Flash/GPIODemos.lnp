@@ -1,0 +1,8 @@
+--cpu Cortex-M0+
+".\flash\startup_mkl25z4.o"
+".\flash\system_mkl25z4.o"
+".\flash\main.o"
+--library_type=microlib --strict --scatter ".\Flash\GPIODemos.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\GPIODemos.map" -o .\Flash\GPIODemos.axf
