@@ -141,7 +141,7 @@
             <RestoreTracepoints>1</RestoreTracepoints>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>12</TargetSelection>
+          <TargetSelection>13</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -404,29 +404,9 @@
               <FilePath>.\startup_MKL25Z4.s</FilePath>
             </File>
             <File>
-              <FileName>kiss_fft.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\kiss_fft.c</FilePath>
-            </File>
-            <File>
-              <FileName>_kiss_fft_guts.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\_kiss_fft_guts.h</FilePath>
-            </File>
-            <File>
-              <FileName>ADC.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\ADC.h</FilePath>
-            </File>
-            <File>
               <FileName>delay.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\delay.h</FilePath>
-            </File>
-            <File>
-              <FileName>FFT.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\FFT.h</FilePath>
             </File>
             <File>
               <FileName>UART.h</FileName>
@@ -434,14 +414,9 @@
               <FilePath>.\UART.h</FilePath>
             </File>
             <File>
-              <FileName>main.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\main.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>kiss_fft.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\kiss_fft.h</FilePath>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\main.c</FilePath>
             </File>
             <File>
               <FileName>system_MKL25Z4.h</FileName>
@@ -453,10 +428,15 @@
               <FileType>1</FileType>
               <FilePath>.\system_MKL25Z4.c</FilePath>
             </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Teraterm</GroupName>
+          <Files>
             <File>
-              <FileName>user_defs.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\user_defs.h</FilePath>
+              <FileName>TERATERM.INI</FileName>
+              <FileType>7</FileType>
+              <FilePath>.\TERATERM.INI</FilePath>
             </File>
           </Files>
         </Group>

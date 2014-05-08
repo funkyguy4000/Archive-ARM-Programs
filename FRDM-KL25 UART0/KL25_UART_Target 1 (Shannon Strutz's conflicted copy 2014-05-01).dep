@@ -1,0 +1,35 @@
+Dependencies for Project 'KL25_UART', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_MKL25Z4.s)(0x4FEE2A04)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis--list .\startup_mkl25z4.lst --xref -o .\startup_mkl25z4.o --depend .\startup_mkl25z4.d)
+F (.\kiss_fft.c)(0x500687BE)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\kiss_fft.o --omf_browse .\kiss_fft.crf --depend .\kiss_fft.d)
+I (_kiss_fft_guts.h)(0x500687BE)
+I (kiss_fft.h)(0x500687BE)
+I (C:\Keil_v4\ARM\ARMCC\include\stdlib.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\ARMCC\include\math.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\ARMCC\include\string.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\ARMCC\include\limits.h)(0x51C86E14)
+F (.\_kiss_fft_guts.h)(0x500687BE)()
+F (.\ADC.h)(0x534ECF6C)()
+F (.\delay.h)(0x534DBD14)()
+F (.\FFT.h)(0x534DBB58)()
+F (.\UART.h)(0x53626033)()
+F (.\main.cpp)(0x5361B3E4)(--cpp -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (UART.h)(0x53626033)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+I (C:\Keil_v4\ARM\ARMCC\include\stdio.h)(0x51C86E14)
+I (delay.h)(0x534DBD14)
+F (.\kiss_fft.h)(0x500687BE)()
+F (.\system_MKL25Z4.h)(0x50047D60)()
+F (.\system_MKL25Z4.c)(0x5361B0EA)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\system_mkl25z4.o --omf_browse .\system_mkl25z4.crf --depend .\system_mkl25z4.d)
+I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x520A5E5A)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
+I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
+I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
+F (.\user_defs.h)(0x51A629D0)()
