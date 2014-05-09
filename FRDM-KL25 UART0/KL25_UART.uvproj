@@ -141,7 +141,7 @@
             <RestoreTracepoints>1</RestoreTracepoints>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>13</TargetSelection>
+          <TargetSelection>12</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -427,16 +427,6 @@
               <FileName>system_MKL25Z4.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\system_MKL25Z4.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Teraterm</GroupName>
-          <Files>
-            <File>
-              <FileName>TERATERM.INI</FileName>
-              <FileType>7</FileType>
-              <FilePath>.\TERATERM.INI</FilePath>
             </File>
           </Files>
         </Group>

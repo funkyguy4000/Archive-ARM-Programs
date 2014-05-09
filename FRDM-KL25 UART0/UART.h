@@ -7,18 +7,11 @@
 
 */
 
-
-	
-#include "delay.h"
-#include <string.h>
-
 int sysclk = 48000000;
 int baud = 115200;
 uint32_t osr = 15;
 uint16_t sbr;
 uint8_t temp;
-
-
 
 struct __FILE
 {
@@ -54,10 +47,6 @@ void uart0_putchar(char ch){
 	UART0->D = ch;
 }
 
-int uart0_getchar_present(){
-    return (UART0->S1 & UART0_S1_RDRF_MASK);
-}
-
 void uart0_Init(void){	
 	SIM->SCGC4 |= SIM_SCGC4_UART0_MASK; 										// enable clock gating to uart0 module 
 	SIM->SCGC5 |= SIM_SCGC5_PORTA_MASK;											// enable clock gating to port A 	
@@ -84,10 +73,6 @@ void uart0_Init(void){
 	UART0->S2 = 0x00;
 	UART0->C2 |= UART0_C2_TE_MASK | UART0_C2_RE_MASK;				//enable UART
 }
-
-
-
-
 
 void print_uart_settings(){
 	printf("\n ========== UART0 Settings =========  \n");
@@ -126,8 +111,6 @@ void print_uart_settings(){
 	}
 	
 	printf("\n \n");	
-	
-	
 	printf("\n === Raw Register Settings ===        \n");
 	printf("\n UART0_BDH_Register: 0x%X             \n",UART0->BDL);
 	printf("\n UART0_BDL_Register: 0x%X             \n",UART0->BDH);
@@ -138,10 +121,4 @@ void print_uart_settings(){
 	printf("\n UART0_C5_Register:  0x%X             \n",UART0->C5);
 	printf("\n UART0_MA1_Register: 0x%X             \n",UART0->MA1);
 	printf("\n UART0_MA2_Register: 0x%X             \n",UART0->MA2);
-
 }
-
-
-
-
-
