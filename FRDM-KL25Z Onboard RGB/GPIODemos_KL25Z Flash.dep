@@ -1,17 +1,0 @@
-Dependencies for Project 'GPIODemos', Target 'KL25Z Flash': (DO NOT MODIFY !)
-F (.\src\startup_MKL25Z4.s)(0x4FEE2A04)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis--list .\flash\startup_mkl25z4.lst --xref -o .\flash\startup_mkl25z4.o --depend .\flash\startup_mkl25z4.d)
-F (..\..\..\Lab9 (ARM Cortex Lab 2)\IRProximity\src\system_MKL25Z4.c)(0x50881190)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinclude-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\flash\system_mkl25z4.o --omf_browse .\flash\system_mkl25z4.crf --depend .\flash\system_mkl25z4.d)
-I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
-I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.h)(0x520A5E5A)
-I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
-I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
-I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
-I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
-F (.\src\main.c)(0x5342FBC4)(-c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -Iinclude-I C:\Keil_v4\ARM\RV31\INC-I C:\Keil_v4\ARM\CMSIS\Include-I C:\Keil_v4\ARM\Inc\Freescale\Kinetis-o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
-I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\MKL25Z4.H)(0x520A5E5A)
-I (C:\Keil_v4\ARM\CMSIS\Include\core_cm0plus.h)(0x520A5E02)
-I (C:\Keil_v4\ARM\ARMCC\include\stdint.h)(0x51C86E14)
-I (C:\Keil_v4\ARM\CMSIS\Include\core_cmInstr.h)(0x520A5E00)
-I (C:\Keil_v4\ARM\CMSIS\Include\core_cmFunc.h)(0x520A5E02)
-I (C:\Keil_v4\ARM\Inc\Freescale\Kinetis\system_MKL25Z4.h)(0x520A5E5C)
-I (include\gpio_defs.h)(0x532C7434)

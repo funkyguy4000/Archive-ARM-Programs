@@ -2,8 +2,8 @@
 ; * @file:    startup_MKL25Z4.s
 ; * @purpose: CMSIS Cortex-M0plus Core Device Startup File for the
 ; *           MKL25Z4
-; * @version: 1.1
-; * @date:    2012-6-21
+; * @version: 1.4
+; * @date:    2012-11-22
 ; *
 ; * Copyright: 1997 - 2012 Freescale Semiconductor, Inc. All Rights Reserved.
 ;*
@@ -64,12 +64,12 @@ __Vectors       DCD     __initial_sp  ; Top of Stack
                 DCD     SysTick_Handler  ; SysTick Handler
 
                 ; External Interrupts
-                DCD     DMA0_IRQHandler  ; DMA channel 0 transfer complete interrupt
-                DCD     DMA1_IRQHandler  ; DMA channel 1 transfer complete interrupt
-                DCD     DMA2_IRQHandler  ; DMA channel 2 transfer complete interrupt
-                DCD     DMA3_IRQHandler  ; DMA channel 3 transfer complete interrupt
+                DCD     DMA0_IRQHandler  ; DMA channel 0 transfer complete/error interrupt
+                DCD     DMA1_IRQHandler  ; DMA channel 1 transfer complete/error interrupt
+                DCD     DMA2_IRQHandler  ; DMA channel 2 transfer complete/error interrupt
+                DCD     DMA3_IRQHandler  ; DMA channel 3 transfer complete/error interrupt
                 DCD     Reserved20_IRQHandler  ; Reserved interrupt 20
-                DCD     FTFA_IRQHandler  ; FTFA interrupt
+                DCD     FTFA_IRQHandler  ; FTFA command complete/read collision interrupt
                 DCD     LVD_LVW_IRQHandler  ; Low Voltage Detect, Low Voltage Warning
                 DCD     LLW_IRQHandler  ; Low Leakage Wakeup
                 DCD     I2C0_IRQHandler  ; I2C0 interrupt
@@ -89,7 +89,7 @@ __Vectors       DCD     __initial_sp  ; Top of Stack
                 DCD     PIT_IRQHandler  ; PIT timer interrupt
                 DCD     Reserved39_IRQHandler  ; Reserved interrupt 39
                 DCD     USB0_IRQHandler  ; USB0 interrupt
-                DCD     DAC0_IRQHandler  ; DAC interrupt
+                DCD     DAC0_IRQHandler  ; DAC0 interrupt
                 DCD     TSI0_IRQHandler  ; TSI0 interrupt
                 DCD     MCG_IRQHandler  ; MCG interrupt
                 DCD     LPTimer_IRQHandler  ; LPTimer interrupt

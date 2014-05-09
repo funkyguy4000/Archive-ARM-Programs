@@ -1,10 +1,6 @@
 #include <MKL25Z4.H>
 #include "gpio_defs.h"
 
-/* CEE-345 Microprocessor System Design
-Demonstration of simple digital output
-Use RGB LED on Freedom board*/
-
 void Delay(unsigned int time_del) {
 	// delay is about 1 millisecond * time_del
 	volatile int t;
@@ -89,23 +85,10 @@ void redGreenBlue(void)
 unsigned int counter = 0;
 int main (void) {
 	
-	//Delcare a global variable to be used in debug mode  	
-	/*Configuration steps
-	   1. Enable clock to GPIO ports
-	   2. Enable GPIO ports
-	   3. Set GPIO direction to output
-	   4. Ensure LEDs are off */
-
 	// Enable clock to ports B and D
 	SIM->SCGC5 |= SIM_SCGC5_PORTB_MASK | SIM_SCGC5_PORTD_MASK;
 	
 	// Make 3 pins GPIO
-	//two steps process: configure pin multiplexer and select a GPIO pin 
-	//first, set pin to GPIO by using MUX =1 in PCR register
-	//second, select a GPIO pin
-	//"&= ~PORT_PCR_MUX_MASK" below is used to make sure the MUX value 
-	//never exceed 7 or 111 
-	//use |= to leave other bits unchanged 
 	PORTB->PCR[RED_LED_POS] &= ~PORT_PCR_MUX_MASK;          
 	PORTB->PCR[RED_LED_POS] |= PORT_PCR_MUX(1);          
 	PORTB->PCR[GREEN_LED_POS] &= ~PORT_PCR_MUX_MASK;          
