@@ -6,7 +6,7 @@
 
 */
 
-#include <MKL25Z4.h>	//Device definitions
+#include "MKL25Z4.h"	//Device definitions
 #include <stdio.h>		//Standard IO library
 #include "UART.h"			//UART0 device driver
 
